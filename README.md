@@ -50,6 +50,11 @@ Technologies used to develop this project:
 
 ## 🖥 Preview
 
+https://user-images.githubusercontent.com/49074930/174152916-6935a7ff-c50a-4356-a21f-f023fec266dd.mp4
+
+https://user-images.githubusercontent.com/49074930/174152903-dfa66a0f-da40-4220-b882-3f2746e7ab41.mp4
+
+https://user-images.githubusercontent.com/49074930/174152912-8a50542a-5a8f-4ee3-8e0d-f806d56b4fc4.mp4
 
 
 ## 🤔 How to contribute
