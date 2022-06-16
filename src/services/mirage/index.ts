@@ -38,7 +38,7 @@ export const makeServer = () => {
     },
 
     seeds(server) {
-      server.createList("user", 10);
+      server.createList("user", 100);
     },
 
     routes() {

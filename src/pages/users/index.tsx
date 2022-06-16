@@ -17,6 +17,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
+import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
@@ -51,6 +52,10 @@ export default function UserList({ users }) {
 
   return (
     <Box>
+      <Head>
+        <title>dash.go | users</title>
+      </Head>
+
       <Header />
 
       <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
@@ -119,7 +124,7 @@ export default function UserList({ users }) {
                           </Text>
                         </Box>
                       </Td>
-                      {isWideVersion && <Td>{user.createdAt}</Td>}
+                      {isWideVersion && <Td>{user.created_at}</Td>}
                       <Td>
                         {isWideVersion && (
                           <Button

@@ -9,6 +9,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import Link from "next/link";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import { useMutation } from "react-query";
 import * as yup from "yup";
@@ -74,6 +75,10 @@ export default function CreateUser() {
 
   return (
     <Box>
+      <Head>
+        <title>dash.go | create a new user</title>
+      </Head>
+
       <Header />
 
       <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">

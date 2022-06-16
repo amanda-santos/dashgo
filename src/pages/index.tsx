@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Button, Flex, Stack } from "@chakra-ui/react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import * as yup from "yup";
@@ -33,6 +34,10 @@ export default function SignIn() {
 
   return (
     <Flex w="100vw" h="100vh" align="center" justify="center">
+      <Head>
+        <title>dash.go | login</title>
+      </Head>
+
       <Flex
         as="form"
         width="100%"
